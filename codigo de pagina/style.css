@@ -1,0 +1,60 @@
+* {
+    background-color: rgb(2, 9, 41);
+    font-size: 30px;
+}
+/* selector de tipo */
+h1 {
+    color: rgb(243, 242, 245);
+    text-align: center;
+}
+
+/* selector de clase */
+.l1{
+    color: rgb(65, 42, 165);
+}
+
+/* selector por id  */
+#prueba{
+    text-decoration: underline;
+    color: white;
+}
+#enlace{
+    text-decoration: line-through;
+    color: aqua;
+}
+p{
+    font-weight: 900;
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* cambiar tamaño de imagen */
+
+#imagen {
+    border: 3px solid beige;
+    height: 300px;
+    text-align: center;
+    display: inline;
+}
+
+.division {
+    border: 2px solid blue;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 20px;
+    margin-top: 20px;
+
+}
+
+p {
+    border: 2px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul > li > a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
